@@ -137,7 +137,7 @@
 		70655F8A1777EFAB0043449D /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 70655F891777EFAB0043449D /* vec4.c */; };
 		70655F8F1777EFAB0043449D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70655F8E1777EFAB0043449D /* main.m */; };
 		70655F921777EFAB0043449D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70655F911777EFAB0043449D /* AppDelegate.m */; };
-		70655F951777EFAB0043449D /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70655F941777EFAB0043449D /* HelloWorldLayer.m */; };
+		70655F951777EFAB0043449D /* FirstLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70655F941777EFAB0043449D /* FirstLayer.m */; };
 		70655F981777EFAB0043449D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 70655F971777EFAB0043449D /* IntroLayer.m */; };
 /* End PBXBuildFile section */
 
@@ -416,8 +416,8 @@
 		70655F8E1777EFAB0043449D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70655F901777EFAB0043449D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70655F911777EFAB0043449D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		70655F931777EFAB0043449D /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		70655F941777EFAB0043449D /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		70655F931777EFAB0043449D /* FirstLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstLayer.h; sourceTree = "<group>"; };
+		70655F941777EFAB0043449D /* FirstLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstLayer.m; sourceTree = "<group>"; };
 		70655F961777EFAB0043449D /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		70655F971777EFAB0043449D /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -480,8 +480,8 @@
 			children = (
 				70655F901777EFAB0043449D /* AppDelegate.h */,
 				70655F911777EFAB0043449D /* AppDelegate.m */,
-				70655F931777EFAB0043449D /* HelloWorldLayer.h */,
-				70655F941777EFAB0043449D /* HelloWorldLayer.m */,
+				70655F931777EFAB0043449D /* FirstLayer.h */,
+				70655F941777EFAB0043449D /* FirstLayer.m */,
 				70655F961777EFAB0043449D /* IntroLayer.h */,
 				70655F971777EFAB0043449D /* IntroLayer.m */,
 				70655E031777EFA80043449D /* Resources */,
@@ -1052,7 +1052,7 @@
 				70655F8A1777EFAB0043449D /* vec4.c in Sources */,
 				70655F8F1777EFAB0043449D /* main.m in Sources */,
 				70655F921777EFAB0043449D /* AppDelegate.m in Sources */,
-				70655F951777EFAB0043449D /* HelloWorldLayer.m in Sources */,
+				70655F951777EFAB0043449D /* FirstLayer.m in Sources */,
 				70655F981777EFAB0043449D /* IntroLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
