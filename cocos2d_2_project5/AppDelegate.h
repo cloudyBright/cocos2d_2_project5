@@ -26,3 +26,6 @@
 @property (readonly) CCDirectorIOS *director;
 
 @end
+
+
+

@@ -142,6 +142,8 @@
 // getting a call, pause the game
 -(void) applicationWillResignActive:(UIApplication *)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
+    
 	if( [navController_ visibleViewController] == director_ )
 		[director_ pause];
 }
@@ -149,6 +151,8 @@
 // call got rejected
 -(void) applicationDidBecomeActive:(UIApplication *)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
+    
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];	
 	if( [navController_ visibleViewController] == director_ )
 		[director_ resume];
@@ -156,12 +160,16 @@
 
 -(void) applicationDidEnterBackground:(UIApplication*)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
+    
 	if( [navController_ visibleViewController] == director_ )
 		[director_ stopAnimation];
 }
 
 -(void) applicationWillEnterForeground:(UIApplication*)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
+    
 	if( [navController_ visibleViewController] == director_ )
 		[director_ startAnimation];
 }
@@ -169,18 +177,23 @@
 // application will be killed
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
+    
 	CC_DIRECTOR_END();
 }
 
 // purge memory
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
 	[[CCDirector sharedDirector] purgeCachedData];
 }
 
 // next delta time will be zero
 -(void) applicationSignificantTimeChange:(UIApplication *)application
 {
+    CCLOG(@"%@", NSStringFromSelector(_cmd));
+    
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];
 }
 
